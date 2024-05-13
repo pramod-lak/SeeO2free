@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+:root {
+  --color-1: #1E0342;
+  --color-2: #7BC9FF;
+  --color-3: #FFD1E3;
+  --color-4: #e2f3ff;
+  --color-5: #8576FF;
+  --color-6: #0F2E5F;
+  --color-7: #0E46A3;
+  --color-8: #070F2B;
+}
+
+/* section 1 styles goes from here | section 1 styles goes from here */
+.section-1 {
+  background-color: var(--color-1);
+}
+.contacts-bar {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+.contacts-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts-bar-phoneandemail p {
+  font-size: 0.85em;
+  color: var(--color-3);
+}
+.contacts-bar-phoneandemail p a:hover {
+  text-decoration: underline;
+}
+.contacts-bar-social ul li {
+  display: inline;
+  margin-left: 20px;
+  font-size: 0.85em;
+  color: var(--color-3);
+}
+.contacts-bar-social ul li a i {
+  transition: all 0.3s ease;
+}
+.contacts-bar-social ul li a i:hover {
+  transform: scale(1.2);
+}
+
+/* header styles goes from here | header styles goes from here */
+header {
+  background: linear-gradient(to right, var(--color-7), var(--color-5));
+  opacity: 0.85;
+  /* position: fixed;
+  width: 100%; */
+}
+.nav-bar {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo a img {
+  width: 170px;
+}
+.nav-menu ul li {
+  display: inline;
+  color: var(--color-4);
+  padding: 30.5px 20px;
+  transition: all 0.2s ease;
+}
+.nav-menu ul li:hover {
+  color: var(--color-4);
+  background-color: var(--color-6);
+}
+.nav-donate {
+  background-color: #702cc8
+}
+
+/* section 2 styles goes from here | section 2 styles goes from here */
+.section-2 {
+  width: 100%;
+  height: 600px;
+  background-image: url(./images/bg_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-2-2 {
+  width: 80%;
+  margin: 0 auto;
+  color: var(--color-1);
+}
+.section-2-2 h3 {
+  padding-top: 120px;
+  font-size: 2.7em;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+.section-2-2 h1 {
+  font-size: 6em;
+  font-weight: 500;
+  letter-spacing: 10px;
+}
+.section-2-2 h2 {
+  font-size: 3.5em;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.section-2-2 p {
+  margin-top: 30px;
+  font-size: 0.9em;
+  background-color: var(--color-7);
+  display: inline-block;
+  padding: 15px 20px;
+  width: 100px;
+  color: var(--color-4);
+  border-radius: 3px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.section-2-2 p:hover {
+  letter-spacing: 2px;
+}
+
+/* section 3 styles goes from here | section 3 styles goes from here */
+.section-3 {
+  background-color: var(--color-1);
+}
+.section-3-2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-4);
+  opacity: 0.9;
+  text-align: center;
+}
+.section-3-2-1, .section-3-2-2, .section-3-2-3 {
+  padding: 30px;
+}
+.section-3-2 img {
+  width: 60px;
+  margin: 15px 0 25px 0;
+}
+.section-3-2 h3 {
+  font-size: 1.15em;
+  letter-spacing: 2px;
+}
+.section-3-2 p {
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  margin: 25px 0;
+}
+.section-3-2 h6 {
+  letter-spacing: 3px;
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+.section-3-2-2 {
+  background-color: var(--color-6);
+}
+
+/* section 4 styles goes from here | section 4 styles goes from here */
+.section-4 {
+  background-image: url(./images/sec3_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-4-2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.section-4-2-1 {
+  background-image: url(./images/donate.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-4-2-2 {
+  background-image: url(./images/needaction.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-4-2-1, .section-4-2-2 {
+  margin: 70px 20px;
+  padding: 50px 40px;
+}
+.section-4-2-1 h4, .section-4-2-2 h4 {
+  font-size: 2em;
+  font-weight: 700;
+  color: var(--color-1);
+  letter-spacing: 1px;
+}
+.section-4-2-1 h5, .section-4-2-2 h5 {
+  font-size: 1.6em;
+  font-weight: 500;
+  margin: 5px 0 25px 0;
+  color: var(--color-5);
+  letter-spacing: 1px;
+}
+.section-4-2-1 p, .section-4-2-2 p {
+  color: var(--color-4);
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.section-4-2-1 button, .section-4-2-2 button {
+  border: none;
+  border-radius: 2px;
+  background-color: #fff;
+  width: 120px;
+  padding: 10px 0;
+  background-color: var(--color-7);
+  color: var(--color-4);
+  cursor: pointer;
+}
+
+/* section 5 styles goes from here | section 5 styles goes from here */
+.section-5 {
+  background-image: url(./images/newsletter.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-5-2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 120px 0;
+}
+.section-5-2 h2 {
+  color: var(--color-7);
+  font-size: 1.9em;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+.section-5-2 input {
+  width: 380px;
+  margin-right: 10px;
+  padding: 15px 20px;
+  border: none;
+  font-size: 1em;
+}
+.section-5-2 label {
+  color: var(--color-4);
+  background-color: var(--color-6);
+  padding: 15px 35px;
+  border-radius: 2px;
+  font-size: 1em;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.section-5-2 label:hover {
+  background-color: var(--color-5);
+  color: var(--color-6);
+}
+
+/* section 6 styles goes from here | section 6 styles goes from here */
+.section-6 {
+  background-color: var(--color-2);
+}
+.section-6-2 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.section-6-2-1, .section-6-2-1-1, .section-6-2-1-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-6-2-1-1 img {
+  width: 30px;
+}
+.section-6-2-1-1 h2 {
+  font-size: 1.8em;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+.section-6-2-1-2 p {
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin-right: 10px;
+  color: var(--color-7);
+  cursor: pointer;
+}
+.section-6-2-1-2 i {
+  font-size: 1em;
+  color: var(--color-7);
+}
+.section-6-2-2 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-6-2-2-0 {
+  padding: 0 20px;
+}
+.section-6-2-2-0 img {
+  width: 250px;
+  margin-bottom: 15px;
+}
+.section-6-2-2-0 h5 {
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.section-6-2-2-0 h6 {
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: var(--color-7);
+}
+.section-6-2-2-0 p {
+  font-size: 0.88em;
+  letter-spacing: 1px;
+}
+
+/* footer styles goes from here | footer styles goes from here */
+footer {
+  background-color: var(--color-8);
+  padding: 40px 0;
+}
+.footer-2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.details {
+  color: var(--color-3);
+}
+.details-texts img {
+  width: 145px;
+}
+.details-texts h6 {
+  font-weight: 400;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+.details-texts p {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+.details-texts a:hover {
+  text-decoration: underline;
+}
+.social-media ul li {
+  display: inline;
+  margin-right: 10px;
+  font-size: 0.85em;
+  color: var(--color-3);
+}
+.social-media ul li a i {
+  transition: all 0.3s ease;
+}
+.social-media ul li a i:hover {
+  transform: scale(1.2);
+}
+.footer-box h5 {
+  font-size: 1.1em;
+  padding-bottom: 15px;
+  color: var(--color-5);
+  letter-spacing: 1px;
+}
+.footer-box li {
+  padding-bottom: 10px;
+}
+.footer-box a {
+  color: var(--color-3);
+  font-size: 0.9em;
+}
+.footer-box a:hover {
+  text-decoration: underline;
+}
+
+/* section 7 styles goes from here | section 7 styles goes from here */
+.section-7 {
+  background-color: var(--color-1);
+}
+.section-7 p {
+  font-size: 0.9em;
+  color: var(--color-7);
+  text-align: center;
+  padding: 20px 0;
+}
